@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+
+.dashboard {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #666;
+  font-size: 16px;
+}
+
+.sensor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.sensor-card {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.sensor-card:hover {
+  transform: translateY(-5px);
+}
+
+.sensor-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.sensor-card h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.sensor-value {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sensor-value span {
+  font-size: 20px;
+  color: #666;
+}
+
+.sensor-status {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: #e8f7ee;
+  color: #16803c;
+  font-weight: bold;
+}
