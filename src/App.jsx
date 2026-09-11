@@ -30,7 +30,7 @@ function App() {
     <div className="dashboard">
       <header>
         <h1>Sensor Monitoring Dashboard</h1>
-        <p>Real-Time Environmental Sensor Grid</p>
+        <p>Real-Time Environmental Sensor Grid | Live Monitoring</p>
       </header>
 
       <div className="sensor-grid">
